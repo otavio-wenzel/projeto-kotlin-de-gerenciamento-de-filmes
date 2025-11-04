@@ -1,4 +1,4 @@
-package com.example.gerenciamentodefilmes.view
+package com.example.cine.view
 
 import android.os.Bundle
 import android.widget.Toast
@@ -18,9 +18,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.gerenciamentodefilmes.model.database.AppDatabase
-import com.example.gerenciamentodefilmes.viewmodel.DiretorViewModel
-import com.example.gerenciamentodefilmes.viewmodel.DiretorViewModelFactory
+import com.example.cine.model.database.AppDatabase
+import com.example.cine.viewmodel.DiretorViewModel
+import com.example.cine.viewmodel.DiretorViewModelFactory
 
 class DiretorActivity : ComponentActivity() {
     private val diretorViewModel: DiretorViewModel by viewModels {

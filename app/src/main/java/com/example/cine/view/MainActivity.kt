@@ -1,4 +1,4 @@
-package com.example.gerenciamentodefilmes.view
+package com.example.cine.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,9 +6,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.material3.ExperimentalMaterial3Api
-import com.example.gerenciamentodefilmes.model.database.AppDatabase
-import com.example.gerenciamentodefilmes.ui.theme.FilmesTheme
-import com.example.gerenciamentodefilmes.viewmodel.*
+import com.example.cine.model.database.AppDatabase
+import com.example.cine.ui.theme.FilmesTheme
+import com.example.cine.viewmodel.*
 
 class MainActivity : ComponentActivity() {
 

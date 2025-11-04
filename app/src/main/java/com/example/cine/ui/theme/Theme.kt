@@ -1,4 +1,4 @@
-package com.example.gerenciamentodefilmes.ui.theme
+package com.example.cine.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,8 +1,8 @@
-package com.example.gerenciamentodefilmes.viewmodel
+package com.example.cine.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.gerenciamentodefilmes.model.dao.FilmeDao
+import com.example.cine.model.dao.FilmeDao
 
 class FilmeViewModelFactory(
     private val filmeDao: FilmeDao

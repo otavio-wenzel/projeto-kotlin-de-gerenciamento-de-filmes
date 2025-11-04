@@ -1,13 +1,19 @@
-package com.example.gerenciamentodefilmes.viewmodel
+package com.example.cine.viewmodel
 
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.example.gerenciamentodefilmes.model.entity.Filme
+import com.example.cine.model.entity.Filme
 import androidx.lifecycle.viewModelScope
-import com.example.gerenciamentodefilmes.model.dao.FilmeDao
+import com.example.cine.model.dao.FilmeDao
 import kotlinx.coroutines.launch
-import com.example.gerenciamentodefilmes.model.entity.Diretor
+import com.example.cine.model.entity.Diretor
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.Query
+import androidx.room.Delete
+import androidx.room.Update
+
 
 class FilmeViewModel(private  val filmeDao : FilmeDao): ViewModel() {
 

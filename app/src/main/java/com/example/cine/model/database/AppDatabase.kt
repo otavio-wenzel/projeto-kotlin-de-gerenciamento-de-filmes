@@ -6,10 +6,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.example.gerenciamentodefilmes.model.dao.FilmeDao
-import com.example.gerenciamentodefilmes.model.dao.DiretorDao
-import com.example.gerenciamentodefilmes.model.entity.Filme
-import com.example.gerenciamentodefilmes.model.entity.Diretor
+import com.example.cine.model.dao.FilmeDao
+import com.example.cine.model.dao.DiretorDao
+import com.example.cine.model.entity.Filme
+import com.example.cine.model.entity.Diretor
 
 @Database(entities = [Filme::class, Diretor::class], version = 2)
 abstract class AppDatabase : RoomDatabase() {

@@ -3,7 +3,7 @@ package com.example.cine.model.dao
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.gerenciamentodefilmes.model.entity.Diretor
+import com.example.cine.model.entity.Diretor
 
 @Dao
 interface DiretorDao {

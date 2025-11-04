@@ -1,11 +1,17 @@
-package com.example.gerenciamentodefilmes.viewmodel
+package com.example.cine.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.gerenciamentodefilmes.model.dao.DiretorDao
-import com.example.gerenciamentodefilmes.model.entity.Diretor
+import com.example.cine.model.dao.DiretorDao
+import com.example.cine.model.entity.Diretor
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.mutableStateOf
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.Query
+import androidx.room.Delete
+import androidx.room.Update
+
 
 class DiretorViewModel(private val diretorDao: DiretorDao) : ViewModel() {
 

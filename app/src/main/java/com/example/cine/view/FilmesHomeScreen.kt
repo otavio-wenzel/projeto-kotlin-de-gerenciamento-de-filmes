@@ -3,7 +3,7 @@
     androidx.compose.foundation.layout.ExperimentalLayoutApi::class
 )
 
-package com.example.gerenciamentodefilmes.view
+package com.example.cine.view
 
 import android.content.Intent
 import androidx.compose.animation.AnimatedVisibility
@@ -27,10 +27,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.gerenciamentodefilmes.model.entity.Diretor
-import com.example.gerenciamentodefilmes.model.entity.Filme
-import com.example.gerenciamentodefilmes.viewmodel.DiretorViewModel
-import com.example.gerenciamentodefilmes.viewmodel.FilmeViewModel
+import com.example.cine.model.entity.Diretor
+import com.example.cine.model.entity.Filme
+import com.example.cine.viewmodel.DiretorViewModel
+import com.example.cine.viewmodel.FilmeViewModel
 import kotlinx.coroutines.launch
 import androidx.compose.foundation.layout.FlowRow
 
